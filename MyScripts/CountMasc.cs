@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//this script implements the BSRI Inventory (Bem, 1970) http://www.bemedialiterate.com/uploads/1/7/2/2/1722523/bem_androgyny_test.pdf
+//
 public class CountMasc : MonoBehaviour
 {
     int total;
