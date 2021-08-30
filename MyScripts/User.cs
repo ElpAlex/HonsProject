@@ -10,16 +10,7 @@ public class User
     public string Ab_age;
     public string Ac_gender;
 
-    //body female
-    //public float Bfem_arms;
-    //public float Cfem_shoulders;
-    //public float Efem_abdomen;
-    //public float Gfem_belly;
-    //public float Ifem_thighs;
-    //public float Jfem_calves;
-    //public float Kfem_feet;
-    //public float Lfem_height;
-    //public float M_weight;
+    
     public float BaFem_breasts;
     public float BbFem_waist;
     public float BcFem_gluteus;
@@ -29,13 +20,7 @@ public class User
     public float CaM_arms;
     public float CbM_shoulders;
     public float CcM_abdomen;
-    //public float Fm_waist;
-    //public float Gm_belly;
-    //public float Hm_gluteus;
-    //public float Im_thighs;
-    //public float Jm_calves;
-    //public float Km_feet;
-    //public float Lm_height;
+   
 
     ////facetop
     //public float Na_foreheadPos;
@@ -88,16 +73,7 @@ public class User
         Aa_username = UserData.playerName;
         Ab_age = UserData.playerAge;
         Ac_gender = UserData.playerGender;
-
-        //Bfem_arms = UserData.armsValue;
-        //Cfem_shoulders = UserData.shouldersValue;
-        //Efem_abdomen = UserData.abdomenValue;
-        //Gfem_belly = UserData.bellyValue;
-        //Ifem_thighs = UserData.thighsValue;
-        //Jfem_calves = UserData.calvesValue;
-        //Kfem_feet = UserData.feetValue;
-        //Lfem_height = UserData.heightValue;
-        //M_weight = UserData.weightValue;
+        
         BaFem_breasts = UserData.breastsFemValue;
         BbFem_waist = UserData.waistFemValue;
         BcFem_gluteus = UserData.gluteusFemValue;
