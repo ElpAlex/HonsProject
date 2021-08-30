@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//script that allows the user to rotate the model by clicking and dragging the character left and right
 public class rotate : MonoBehaviour
 {
     float rotSpeed = 20;
