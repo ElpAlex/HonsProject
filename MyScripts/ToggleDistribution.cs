@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-//script thata adds value to the choices of the user in the character attributes stage (works in combination to )
+//script thata adds value to the choices of the user in the character attributes stage (works when combined with the CountMasc.cs script)
 public class ToggleDistribution : MonoBehaviour
 {
     public Toggle toggle;
