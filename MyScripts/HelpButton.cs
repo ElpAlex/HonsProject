@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//script for the UI help button
 public class HelpButton : MonoBehaviour
 {
     //public GameObject helpButton;
