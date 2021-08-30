@@ -3,33 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//script thata adds value to the choices of the user in the character attributes stage (works in combination to )
 public class ToggleDistribution : MonoBehaviour
 {
-    //int masculine;
-    //int feminine;
-    //int neutral;
-
     public Toggle toggle;
     public int count;
 
-
-
-    //public void plusOneMasc()
-    //{
-    //    masculine += 7;
-    //    Debug.Log("masc = " + masculine + " fem = " + feminine + " neut = " + neutral);
-
-    //}
-    //public void plusOneFem()
-    //{
-    //    feminine += 7;
-    //    Debug.Log("masc = " + masculine + " fem = " + feminine + " neut = " + neutral);
-    //}
-    //public void plusOneNeut()
-    //{
-    //    neutral += 7;
-    //    Debug.Log("masc = " + masculine + " fem = " + feminine + " neut = " + neutral);
-    //}
 
     void Update()
     {
@@ -38,7 +17,6 @@ public class ToggleDistribution : MonoBehaviour
         
         else
             count = 1;
-        //print(count);
     }
 
 }
