@@ -5,7 +5,6 @@ using UnityEngine;
 //script for the UI help button
 public class HelpButton : MonoBehaviour
 {
-    //public GameObject helpButton;
     public GameObject infoHelpPanel;
     // Start is called before the first frame update
     void Start()
