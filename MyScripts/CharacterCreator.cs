@@ -5,6 +5,9 @@ using UMA;
 using UMA.CharacterSystem;
 using UnityEngine.UI;
 
+//This script declares all the body parts available for chage in the tool
+//each part derives from the UMA library
+//Slider components are attached to each part so they can be edited when the user interacts with the slider
 public class CharacterCreator : MonoBehaviour
 {
     public DynamicCharacterAvatar avatar;
@@ -50,10 +53,6 @@ public class CharacterCreator : MonoBehaviour
     public Slider gluteusSlider;
     public Slider thighsSlider;
     public Slider calvesSlider;
-    //public Slider feetSlider;
-    ////Genral
-    //public Slider heightSlider;
-    //public Slider weightSlider;
 
     //for hair
     public List<string> hairModels = new List<string>();
@@ -203,9 +202,6 @@ public class CharacterCreator : MonoBehaviour
         gluteusSlider.value = dna["gluteusSize"].Get();
         thighsSlider.value = dna["lowerWeight"].Get();
         calvesSlider.value = dna["lowerMuscle"].Get();
-        //feetSlider.value = dna["feetSize"].Get();
-        ////general
-        //heightSlider.value = dna["height"].Get();
     }
 
     //FACE
@@ -378,36 +374,6 @@ public class CharacterCreator : MonoBehaviour
         dna["lowerMuscle"].Set(val);
         avatar.BuildCharacter();
     }
-
-    //public void FeetChange(float val)
-    //{
-    //    dna["feetSize"].Set(val);
-    //    avatar.BuildCharacter();
-    //}
-
-    //public void HeightChange(float val)
-    //{
-    //    dna["height"].Set(val);
-    //    avatar.BuildCharacter();
-    //}
-
-    //public void WeightChange(float val)
-    //{
-    //    dna["belly"].Set(val);
-    //    dna["cheekSize"].Set(val);
-    //    dna["armWidth"].Set(val);
-    //    dna["breastSize"].Set(val);
-    //    dna["forearmWidth"].Set(val);
-    //    dna["gluteusSize"].Set(val);
-    //    dna["jawsSize"].Set(val);
-    //    dna["lowerMuscle"].Set(val);
-    //    dna["lowerWeight"].Set(val);
-    //    dna["neckThickness"].Set(val);
-    //    dna["waist"].Set(val);
-    //    dna["upperMuscle"].Set(val);
-    //    dna["upperWeight"].Set(val);
-    //    avatar.BuildCharacter();
-    //}
 
     public void ChangeHair (bool plus)
     {
