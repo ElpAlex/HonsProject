@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//script that transfers the value on each body part slider, along with the character attributes and questionnaire answers (edited by the user)
+//to strings that get stored in a Firebase database
 public class UserData : MonoBehaviour
 {
     public static string playerName;
