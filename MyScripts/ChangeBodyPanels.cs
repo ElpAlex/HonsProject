@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//The script is attached to a UI component with tabs referring to the body of the avatar and it allows the user to change from one to the other
 public class ChangeBodyPanels : MonoBehaviour
 {
-    //public GameObject GeneralTab;
     public GameObject UpperBodyTab;
     public GameObject LowerBodyTab;
 
@@ -19,24 +19,15 @@ public class ChangeBodyPanels : MonoBehaviour
         UpperBodyButton.Select();
     }
 
-    //public void ChangeToGeneralTab()
-    //{
-    //    GeneralTab.SetActive(true);
-    //    UpperBodyTab.SetActive(false);
-    //    LowerBodyTab.SetActive(false);
-    //}
-
     public void ChangeToUpperBodyTab()
     {
-        //GeneralTab.SetActive(false);
         UpperBodyTab.SetActive(true);
         LowerBodyTab.SetActive(false);
         UpperBodyButton.Select();
     }
 
     public void ChangeToLowerBodyTab()
-    {
-        //GeneralTab.SetActive(false);
+    { 
         UpperBodyTab.SetActive(false);
         LowerBodyTab.SetActive(true);
         LowerBodyButton.Select();
