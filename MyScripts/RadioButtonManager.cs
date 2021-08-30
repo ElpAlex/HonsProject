@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
+//script for managing the radio buttons of the personality attributes of the character
 public class RadioButtonManager : MonoBehaviour
 {
     public string currentValue;
