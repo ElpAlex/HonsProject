@@ -25,7 +25,6 @@ public class ChangeTabs : MonoBehaviour
     {
         FaceTabContainer.SetActive(false);
         BodyTabContainer.SetActive(true);
-       // AttireTabContainer.SetActive(false);
         MyCamera.transform.position = NormalCamPos.transform.position;
     }
 }
