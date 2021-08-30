@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//A script that allow the user to press next and go to the main scene
 public class AllowNext : MonoBehaviour
 {
     public Button nextButton;
@@ -11,6 +12,7 @@ public class AllowNext : MonoBehaviour
     public InputField ageField;
     public InputField genderField;
 
+//this allows the user to continue only they are over 18 years old and they type male/Male/Female/female/other in the gender box
     void Update()
     {
         nextButton.interactable = (usernameField.text.Length >= 1 && ageField.text.Length ==2
